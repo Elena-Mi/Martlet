@@ -4,22 +4,21 @@
 	box-sizing: border-box;
 }
 body {
-	 font-family: "Roboto", sans-serif;
-	 overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
 }
 .label_png {
 	border-radius: 12px;
-	/* padding: 5px 10px; */
 }
 
 .brand_logo {
-		color:#673c8a; 
+	color: #673c8a;
 }
 .bg_nav {
 	background-color: #c7b1d3;
 }
 .navbar-brand {
-	text-shadow: .5px .5px #232323;
+	text-shadow: 0.5px 0.5px #232323;
 	filter: drop-shadow(0 0 30px rgb(220, 220, 220))
 		drop-shadow(0 0 20px rgb(220, 220, 220));
 }
@@ -39,6 +38,9 @@ body {
 	color: #673c8a;
 	text-shadow: 1px 1px #232323;
 	filter: drop-shadow(0 0 15px #e9deef) drop-shadow(0 0 15px #e9deef);
+}
+.hero_title_sm {
+	font-size: 35px;
 }
 .hero_second {
 	font-size: 23px;
@@ -63,17 +65,20 @@ body {
 	color: #232323;
 }
 
-.blog1_third_bg{
+.blog1_third_bg {
 	background-color: #673c8a;
-
 }
 .blog2_third_bg {
-	background-color:  rgb(32, 154, 148);
+	background-color: rgb(32, 154, 148);
 }
+
 @media all and (max-width: 800px) {
-	.hero_title,
-	.hero_secondOne {
+	.hero_title {
 		font-size: 30px;
+	}
+	.hero_title_sm,
+	.hero_secondOne {
+		font-size: 25px;
 	}
 	.hero_second_image {
 	}
