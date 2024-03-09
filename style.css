@@ -82,19 +82,24 @@ body {
 	font-weight: 500;
 }
 .hero_second_btn {
-	background-color: var(--red);
+	background-color: var(--lavanda);
 	color: rgb(241, 241, 241);
 }
 .hero_second_btn:hover {
-	background-color: var(--lavanda);
+	background-color: var(--red);
 	color: #232323;
 }
-
+.third_title {
+	font-size: 40px;
+	color: var(--purple);
+	font-weight: 900;
+	text-transform: uppercase;
+}
 .blog1_third_bg {
 	background-color: var(--purple);
 }
 .blog2_third_bg {
-	background-color: var(--bruse);
+	background-color: var(--lavanda);
 }
 .blog3_third_bg {
 	background-color: var(--red);
@@ -112,10 +117,15 @@ body {
 	}
 }
 @media all and (max-width: 500px) {
-	.hero_title,
-	.hero_secondOne {
+	.hero_title {
 		font-size: 25px;
 	}
+	.main_hero_bg {
+			background-image: none;
+	}
+	.hero_secondOne {
+			font-size: 30px;
+		}
 	.hero_second {
 		background-color: white;
 		font-size: 20px;
