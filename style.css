@@ -119,6 +119,7 @@ body {
 @media all and (max-width: 500px) {
 	.hero_title {
 		font-size: 25px;
+		
 	}
 	.main_hero_bg {
 		background-image: none;
@@ -129,7 +130,9 @@ body {
 	.hero_second {
 		background-color: white;
 		font-size: 20px;
+		
 	}
+
 	.hero_text_second {
 		font-size: 0.9rem;
 	}
@@ -145,6 +148,13 @@ body {
 @media all and (max-width: 415px) {
 	.third-section_text {
 		font-size: 24px;
-		
+	}
+	.hero_second_mobile {
+		color: var(--purple);
+		text-shadow: 1px 1px var(--lavanda);
+		text-align: start;
+	}
+	.third_title {
+		font-size: 22px;
 	}
 }
