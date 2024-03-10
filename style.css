@@ -71,10 +71,10 @@ body {
 }
 
 .hero_secondOne {
-	color: var(--red);
 	text-shadow: 1px 1px var(--lavanda);
-	/* filter: drop-shadow(0 0 2px var(--purple)) drop-shadow(0 0 2px var(--purple)); */
+	color: var(--lavanda);
 }
+
 .hero_text_second {
 	text-transform: uppercase;
 	color: var(--white);
@@ -83,7 +83,7 @@ body {
 }
 .hero_second_btn {
 	background-color: var(--white);
-	color: var(--red);
+	color: var(--purple);
 }
 .hero_second_btn:hover {
 	background-color: var(--lavanda);
@@ -105,6 +105,60 @@ body {
 	background-color: var(--red);
 }
 
+.logo_background {
+	background-image: url(./img_Martlet/bg_one.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	height: 10vh;
+	width: 100%;
+}
+.foursection_block {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.foursection_bg {
+	background-image: url(./img_Martlet/bg_one.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.foursection_title {
+	font-size: 40px;
+	color: var(--purple);
+	font-weight: 900;
+	text-transform: uppercase;
+	text-shadow: 2px 2px var(--white);
+}
+.foursection_text {
+	color: var(--black);
+	font-size: 21px;
+	text-shadow: 0.5px 0.5px var(--white);
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.five_bg {
+	background-color: var(--purple);
+	border-radius: 12px;
+}
+.fivesection_title {
+	color: var(--white);
+	text-shadow: 1px 1px var(--black);
+}
+.five_text {
+	color: var(--white);
+	text-transform: uppercase;
+}
+.fivesection_title_second {
+	color: var(--lavanda);
+	font-size: 30px;
+	text-shadow: 1px 1px var(--white);
+}
+.fivesection_text {
+	color: var(--lavanda);
+	text-shadow: 0.5px 0.5px var(--purple);
+}
+
 @media all and (max-width: 800px) {
 	.hero_title {
 		font-size: 30px;
@@ -119,7 +173,6 @@ body {
 @media all and (max-width: 500px) {
 	.hero_title {
 		font-size: 25px;
-		
 	}
 	.main_hero_bg {
 		background-image: none;
@@ -130,7 +183,6 @@ body {
 	.hero_second {
 		background-color: white;
 		font-size: 20px;
-		
 	}
 
 	.hero_text_second {
@@ -143,6 +195,12 @@ body {
 	}
 	.third_title {
 		font-size: 30px;
+	}
+	.foursection_title {
+		font-size: 30px;
+	}
+	.fivesection_bg {
+		background-color: rgba(156, 123, 222, 0.5);
 	}
 }
 @media all and (max-width: 415px) {
@@ -157,4 +215,16 @@ body {
 	.third_title {
 		font-size: 22px;
 	}
+	.foursection_title {
+		font-size: 22px;
+	}
 }
+
+/* 
+	background: url(./img_Martlet/bg_one) center no-repeat;
+
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text; */
+
+/* background-color: rgba(156, 123, 222, 0.5); */
+/* background-color: rgba(255, 255, 255, 0.5); */
